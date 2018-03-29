@@ -1,16 +1,27 @@
-</!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Home</title>
-
 </head>
 <body>
 	<p>
-		key: <input id="key"> 
-		<br>
-		value: <input id="value">
-		<br>
+		key: <input type="text" id="key">
+		<br/>
+		value: <input type="text" id="value">
+		<br/>
 		<button id="submit"> submit </button>
 	</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+<!--<script>
+	$(document).on("click", "#submit", function(){
+		var apple = document.getElementById('key').value;
+		console.log(apple);
+	});
+</script>
+-->
+
 </body>
 </html>
